@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子线程更新主线程ui">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进度条">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okHttp访问tomcat里的json文件">
+
+    </Button>
+
+</LinearLayout>
