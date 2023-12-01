@@ -31,4 +31,12 @@
 
     </Button>
 
+    <Button
+        android:id="@+id/btn_servlet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问服务器Servlet数据">
+
+    </Button>
+
 </LinearLayout>

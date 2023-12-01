@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn_servlet = findViewById(R.id.btn_servlet);
+        btn_servlet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ServletActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
